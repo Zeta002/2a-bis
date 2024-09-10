@@ -1,0 +1,107 @@
+* Pourquoi estimner ?
+
+* Pour prévenir les risques de dépassement des délais prévus, du budget...
+
+> Objectif : Estimer la charge associée aux tâches
+
+	- Quels sont les besoins en ressources ?
+	- Comment organiser le travail ?
+	- Quand sera fini le projet ?
+	- Quelle fonctionnalité en priorité ?
+
+> La méthodologie d'estimation de la charge d'un projet diffère selon les approches.
+
+Deux bulles:
+
+- Taille du projet ?
+- Spécificités du projet ?
+
+L'estimaton de la charge est donc la quantité de travail en jour / hommes dans une journée, 
+elle englobe ces deux bulles
+
+* Quelles charges ?
+
+Base
+
+* spécification
+* conception
+* Développement
+* tests
+
+Support
+
+* gestion
+* qualité
+* sécurité
+
+Accompagnement
+
+* besoins
+* formation
+
+> Techniques simples
+
+- Méthode Delphi
+* S'appuie sur l'expertise et les convergences d'estimation.
+
+- Méthode par analogie
+* Des projets similaires servent de références
+
+> Ligne de code
+* Modèle COCOMO (Constructire Cost Model) fournit un algorithme dérivant une estimation de 
+l'effort << En homme mois >> à partir d'une estimation de la taille << en lignes de code >>
+
+> Point de fonction
+* Estimation de la taille d'un proje à partir des fonctionnalités livrées à l'utilisateur 
+indépendamment des techniques utilisées
+
+Deux bulles :
+
+* Fonctionnalités ?
+* Priorités et valeurs ?
+
+Les stories points englobe ces deux bulles
+
+* Quelles stories ?
+
+Il faut connaître la spécifications et avoir priorisé, priorisé ce qui est suffisament 
+précis, travaillé et en général ce qui est discuté avec le client
+
+* Quelles techniques ?
+
+> Ideal days
+* Le nombre de joues << D'effort >> que l'équipe prendrait pour réaliser une story
+
+> Temps de travail réel de l'équipe dans une journée (sans interruptions)
+
+> Story points
+* Le nombre de points représentant << la taille >> d'une story
+
+> Estimation des efforts nécessaires à l'équipe pour développer une fonctionnalité
+	- Pas de focus sur la durée
+
+* Remarque : la taille peut nous aider à calculer la durée du projet
+taille du projet = nombre total de points des stories
+calcul de la vélocité de l'équipe = nombre de points réalisés en 1 sprint
+durée du projet = taille / vélocité
+
+> Planning poker / réunions de chiffrage
+
+* Permet d'estimer en story points
+
+> Priority poker
+* Estimation par une valeur relative en points, en utilisant des cartes numérotées de 1 à 9
+* Permet de prioriser en points
+
+> Taille de t-shirt
+* Estimation de la taille, en utilisant l'image des tailles de t-shirt plutôt que la suite 
+de Fibonacci *¨Permet d'estimer sans chiffres
+
+* Quelles recommandations ?
+Une estimation n'est pas exacte
+Il est difficile d'estimer en une seule fois
+Respecter les temps de parole de tous
+L'estimation peut continuer si la vélocité est atteinte
+Ne pas expliquer les user story
+Ne pas se forcé à estimé
+Un point n'est pas une heure
