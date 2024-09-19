@@ -105,3 +105,36 @@ L'estimation peut continuer si la vélocité est atteinte
 Ne pas expliquer les user story
 Ne pas se forcé à estimé
 Un point n'est pas une heure
+
+
+Définitions du besoin -> Estimation -> Planif -> Production
+
+C'est un développent itératif
+
+Le processus de planification sert à définir trois choses:
+
+* Quand démarre et fini une release
+* Combien de sprint sont prévus
+* Quand les stories utilisateurs seront développé
+
+=> sprint zéro : période de temps avant la première release
+
+Le projet est découpé en releases elles même découpé en sprint
+
+Donc les releases englobe les sprints qui englobe une journée de travail
+
+Release : +1 itération
+Sprint : 1 itération
+
+La sommes des travaux prévus terminé dans une itération = vélocité (sommes des points associé au stories)
+
+La date de fin est prédéfini par le client, soit il n'y à plus de budget, soit il y a assez de valeurs produite pour 
+le client
+
+Durée fix
+Début du sprint : périmètre défini
+Fin du sprint : les stories doivent être finies
+
+Les stories fonctionnel sont les user story
+
+Bruit = temps passé à faire autres choses que les fonctionnalité priorisé
